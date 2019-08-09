@@ -22,11 +22,11 @@
   display: inline-block;
   margin: 0;
   padding: 0;
-  min-width: 100px;
-  min-height: 100px;
+  min-width: 200px;
+  min-height: 200px;
 }
 
-.main-nav-list li { padding:40px; }
+.main-nav-list li { padding:20px; }
 
 
 .main-nav-list li img.linkzelda { margin-bottom: 10px; position: absolute; }
@@ -102,7 +102,6 @@
         <header id="header" class="okayNav-header navbar-fixed-top main-navbar-top">
             <div class="container">
                 <div class="row">
-                    <!--这句什么意思-->
                     <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
                         <a class="okayNav-header__logo navbar-brand" href="#">
                             <img src="images/klab-logo.png" alt="" class="logo-1 img-responsive">
@@ -142,10 +141,10 @@
 
                                 <!--  Header SubTitle Goes here -->
                                 <h1 class="title">Personalized Collaboration</h1> 
-                                <h2 class="title">Placeholder text for the ones who can</h2>
+                                <h2 class="title">Coalesce</h2>
 
                                 <div class="detail">
-                                    <p>This group is awesome</p>
+                                    <p>A tool that helps teachers understand their classroom.</p>
                                 
 	
                                 </div>
@@ -189,33 +188,39 @@
         ====================================== -->
         <section class="features-section-1 relative background-semi-dark" id="features">
             <div class="container">
-                <div class="row section-separator">
+            
 
                     <!-- Start: Section Header -->
                     <div class="section-header col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
                     	<br>
                     	<br>
                         <h2 class="section-heading"> <b>Our Features</b></h2>
-                        <p class="sub-heading">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+
+        
+
+                        <p class="sub-heading">
+                            
+                            Over the course of the past 2 months, we  have collaborated with several teachers, instructors and shareholders to effectively 
+                            understand their needs. Through all of these iterations, we realized that teachers needed a bit more assistance in terms of identifying groups.
+                            We designed a teacher facing interface, showing them the details of each student in varying degrees of granularity. 
+                            We also created a tool that allows them to use that information to form groups manually or automatically. 
+                        
+                        </p>
                         <br>
                         <br>
-						<div id = "prototype-link">
+						<!-- <div id = "prototype-link">
 						<svg id = prototype-href-link width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg"> View Prototype
 						<circle cx="15.5" cy="15.5" r="15" stroke="#979797"/>
 						<path d="M23.3536 16.3536C23.5488 16.1583 23.5488 15.8417 23.3536 15.6464L20.1716 12.4645C19.9763 12.2692 19.6597 12.2692 19.4645 12.4645C19.2692 12.6597 19.2692 12.9763 19.4645 13.1716L22.2929 16L19.4645 18.8284C19.2692 19.0237 19.2692 19.3403 19.4645 19.5355C19.6597 19.7308 19.9763 19.7308 20.1716 19.5355L23.3536 16.3536ZM8 16.5H23V15.5H8V16.5Z" fill="#979797"/>
 						</svg>
-						<p id = "prototype-href-text">View Prototype</p>
-						</div>
+						<p id = "prototype-href-text">View Prototype</p>    
+						</div> -->
 
 
 
                     </div>
-                </div>
+                
             </div>
 
                     <!-- End: Section Header -->
@@ -224,29 +229,29 @@
         <!-- End: Features Section
         ======================================-->
 
-                    <nav class="main-nav">
-                      <ul class="main-nav-list">
-                        <li class="linkzelda"><img src="https://media3.giphy.com/media/NVBR6cLvUjV9C/giphy.gif?cid=790b76115cf0b936704a4a53555e2fc8&rid=giphy.gif">
-                        <li class="rose"><img src="https://66.media.tumblr.com/22bb03e521c8ddac3ccf8093b6d4eaef/tumblr_pn6t91cT831ucwq4co1_500.gif" ></li>
-                        <li class="jesus"><img src="https://66.media.tumblr.com/2c4ed7662ec61997afe6364a59f6b7a3/tumblr_p4iwqwLfiT1ucwq4co1_500.gif" ></li>
-                        <li class="cats"><img src="https://media1.tenor.com/images/0feacf1898bd3223fa59a32c1c03d5ca/tenor.gif?itemid=12816949" ></li>
-                        
-                      </ul>
-                    </nav>
-                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
-                    <script src="js/jquery.resizeOnApproach.1.0.min.js"></script>
+        <nav class="main-nav">
+                <ul class="main-nav-list">
+                  
+                  <li class="linkzelda"><img src="1.gif"></li>
+                  <li class="rose"><img src="2.gif" ></li>
+                  <li class="jesus"><img src="3.gif" ></li>
+                  <li class="cats"><img src="4.gif" ></li>
+                  
+                </ul>
+              </nav>
+              <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
+              <script src="js/jquery.resizeOnApproach.1.0.min.js"></script>
 
-                    
-                    <script>
-                    $(document).ready(function(){
-                      $('.main-nav-list img').resizeOnApproach({
-                        elementDefault: 100,
-                        elementClosest: 200,
-                        triggerDistance: 300
-                      });
-                    });
-                    </script>
-
+              
+              <script>
+              $(document).ready(function(){
+                $('.main-nav-list img').resizeOnApproach({
+                  elementDefault: 200,
+                  elementClosest: 400,
+                  triggerDistance: 250
+                });
+              });
+              </script>
 
 
 
@@ -265,22 +270,17 @@
                     <div class="section-header col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
 
                         <h2 class="section-heading"><b>Research behind the project</b></h2>
-                        <p class="sub-heading">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <p class="sub-heading">In order to identify the pain points of the problem we are trying to solve, we interviewed several teachers and students to .</p>
                         <br>
                         <br>
 
-                        <div id = "prototype-link">
+                        <!-- <div id = "prototype-link">
 						<svg id = prototype-href-link width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg"> View Prototype
 						<circle cx="15.5" cy="15.5" r="15" stroke="#979797"/>
 						<path d="M23.3536 16.3536C23.5488 16.1583 23.5488 15.8417 23.3536 15.6464L20.1716 12.4645C19.9763 12.2692 19.6597 12.2692 19.4645 12.4645C19.2692 12.6597 19.2692 12.9763 19.4645 13.1716L22.2929 16L19.4645 18.8284C19.2692 19.0237 19.2692 19.3403 19.4645 19.5355C19.6597 19.7308 19.9763 19.7308 20.1716 19.5355L23.3536 16.3536ZM8 16.5H23V15.5H8V16.5Z" fill="#979797"/>
 						</svg>
 						<p id = "prototype-href-text">View Research
-						</div>
+						</div> -->
 
                     </div>
                     <!-- End: Section Header -->
@@ -301,7 +301,7 @@
                     <div class="section-header col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2" id = "team-members">
 
                         <h2 class="section-heading">Core Team Members</h2>
-                        <p class="sub-heading">All our team members are Masters students in Human-Computer Interaction Institute of Carnegie Mellon University, with a very diverse set of skills</p>
+                        <p class="sub-heading">All our team members are <a href = "https://metals.hcii.cmu.edu/">METALS students </a> in Human-Computer Interaction Institute of Carnegie Mellon University, with a very diverse set of skills</p>
 
                     </div>
                     <!-- End: Section Header -->
